@@ -17,37 +17,37 @@ __Kickstarter Dataset:__ 45957 rows across 17 columns with each row representing
 
 __1. project id:__ A unique 5 digit identifier representing each Kickstarter campaign.
 
-__2.name:__ The title of the campaign
+__2. name:__ The title of the campaign
 
-__3.url:__ Direct link to the Kickstarter campaign page.
+__3. url:__ Direct link to the Kickstarter campaign page.
 
-__4.category:__ General category of the project.
+__4. category:__ General category of the project.
 
-__5.subcategory:__ More specific classification, e.g. Category: Games, Subcategory: Board & Card Games
+__5. subcategory:__ More specific classification, e.g. Category: Games, Subcategory: Board & Card Games
 
-__6.location:__ City and state where the project is based.
+__6. location:__ City and state where the project is based.
 
-__7.status:__ Result of the campaign, successful means the funding goal was met, failed means the funding goal was not met, canceled denotes the campaign being ended prematurely before the funding duration was completed, and live denotes the campaign being ongoing.
+__7. status:__ Result of the campaign, successful means the funding goal was met, failed means the funding goal was not met, canceled denotes the campaign being ended prematurely before the funding duration was completed, and live denotes the campaign being ongoing.
 
-__8.goal:__ The target funding amount set by the creator in dollars.
+__8. goal:__ The target funding amount set by the creator in dollars.
 
-__9.pledged:__ Amount of money the campaign recieved from backers in dollars.
+__9. pledged:__ Amount of money the campaign recieved from backers in dollars.
 
-__10.funded percentage:__ How much of the funded goal was earned, represented as a decimal number, with values above 1 signifying pledge amounts recieved in excess of the funding goal.
+__10. funded percentage:__ How much of the funded goal was earned, represented as a decimal number, with values above 1 signifying pledge amounts recieved in excess of the funding goal.
 
-__11.backers:__ Number of people who backed the project.
+__11. backers:__ Number of people who backed the project.
 
-__12.funded date:__ When the campaign ended or was funded.
+__12. funded date:__ When the campaign ended or was funded.
 
-__13.levels:__ The number of different reward tiers offered to backers by the campaigns.
+__13. levels:__ The number of different reward tiers offered to backers by the campaigns.
 
-__14.reward levels:__ Comma seperated dollar amounts representing the required pledge for each of the reward levels in the campaign.
+__14. reward levels:__ Comma seperated dollar amounts representing the required pledge for each of the reward levels in the campaign.
 
-__15.updates:__ Number of updates posted during the campaign.
+__15. updates:__ Number of updates posted during the campaign.
 
-__16.comments:__ Total number of public comments.
+__16. comments:__ Total number of public comments.
 
-__17.duration:__ Campaign length in days.
+__17. duration:__ Campaign length in days.
 
 Filtering the dataset to only the boardgames subcategory results in a dataset of 553 campaigns across the same 17 columns.
 
